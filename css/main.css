@@ -293,11 +293,11 @@ section.me {
   background: url(../img/me.jpg) no-repeat center/cover;
   padding: 80px 0;
 }
-section.me .title .en span {
+section .title .en span {
   color: #ff8342;
 }
 section.me .sub-container {
-  width: 74%;
+  /* width: 74%; */
   border-top: 4px solid #000;
   margin: 40px auto 20px;
   border-bottom: 4px solid #000;
@@ -371,3 +371,48 @@ section.me #incruit-btn:hover {
   background: orangered;
 }
 /* end section.me style */
+section.sns .sub-container {
+  margin: 40px auto;
+}
+section.sns .sub-container li {
+  float: left;
+  margin-right: 5%;
+  width: 30%;
+}
+section.sns .sub-container li:last-child {
+  margin-right: 0;
+}
+section.sns .sub-container li a {
+  display: block;
+}
+section.sns .sub-container li a .img-box {
+  overflow: hidden;
+  height: 375px;
+  margin-bottom: 30px;
+}
+section.sns .sub-container li a .img-box img {
+  height: 100%;
+}
+section.sns .sub-container li a .bottom {
+  padding-left: 15px;
+}
+
+section.sns .sub-container li a .bottom .color {
+  color: #ff8342;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+section.sns .sub-container li a .bottom p {
+  font-size: 19px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+section.sns .sub-container li a .bottom .time {
+  font-size: 14px;
+  font-weight: 300;
+}
+section.sns .sub-container li a .bottom .time i {
+  color: lightgray;
+  padding-right: 10px;
+}
+/* end section.sns */
