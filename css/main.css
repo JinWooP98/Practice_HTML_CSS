@@ -1,2 +1,76 @@
 @import url('common2.css');
 
+/* header style */
+header{
+  height: 100px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  line-height: 100px;
+  font-weight: 700;
+  position: fixed;
+  top: 0;
+}
+header .inner-header {
+   /* border: 3px solid tomato; */
+  width: 84%; 
+  margin: 0 auto;
+}
+
+header .inner-header .logo {
+  /* border: 3px solid violet; */
+  float: left;
+  width: 200px;
+
+}
+header .inner-header .logo img{
+  width: 100%;
+}
+header .inner-header .gnb {
+  /* border: 3px solid red; */
+  float: left;  
+  margin-left: 80px;
+}
+header .inner-header .gnb ul li {
+  /* border: 3px dashed #000; */
+  float: left;
+  margin-right: 80px;
+}
+header .inner-header .gnb ul li a {
+  /* background: red; */
+  display: block;
+  color: #fff;
+  font-size: 16px;
+}
+header .inner-header .gnb ul li a:hover{
+  color: #ff8342;
+}
+header .inner-header .tnb {
+  /* border: 3px solid blue; */
+  float: right;
+  color: #fff;
+  font-size: 16px;
+}
+header .inner-header .tnb ul li {
+  float: left;
+  margin-right: 15px;
+}
+header .inner-header .tnb ul li:first-child i,
+header .inner-header .tnb ul li:nth-child(2) i {
+  margin-right: 8px;
+  font-size: 20px;
+}
+header .inner-header .tnb ul li:last-child a {
+  border: 1px solid #fff;
+  padding: 5px 15px;
+  border-radius: 30px;
+}
+header .inner-header .tnb ul li:last-child a:hover {
+  background: #fff;
+  color: #ff8342;
+}
+header .inner-header .tnb ul li:last-child i {
+  margin-left: 5px;
+}
+header .inner-header .gnb-mobile {
+  display: none;
+}
