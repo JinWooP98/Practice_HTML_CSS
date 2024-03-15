@@ -127,6 +127,7 @@ section.main .main-title .view:hover::after {
 /* section > div.title 공통 style */
 section .title {
   text-align: center;
+  /* border: 1px solid #000; */
 }
 section .title h2 {
   font-size: 45px;
@@ -143,6 +144,8 @@ section .sub-container {
   width: 74%;
   margin: 0 auto;
 }
+/* end section.main style */
+
 /* section.about style */
 section.about {
   margin: 80px 0;
@@ -203,3 +206,82 @@ section.about ul.sub-container li .text .more::before {
   left: 0;
   top: -7px;
 }
+/* end section.about style */
+
+/* setcion innovation*/
+section.innovation .img-box {
+  background: url(../img/product_1.jpg) no-repeat center/cover;
+  height: 500px;
+  margin: 50px auto;
+  position: relative;
+  margin-bottom: 200px;
+}
+section.innovation .sub-container .inner {
+  width: 80%;
+  position: absolute;
+  bottom: -158px;
+  left: 10%;
+}
+section.innovation .sub-container .inner .en{
+  padding: 30px;
+  background: #fff;
+  font-weight: 700;
+  position: relative;
+}
+section.innovation .sub-container .inner .en::after {
+  content: '←→';
+  display: block;
+  width: 50px;
+  position: absolute;
+  font-size: 30px;
+  color: lightgray;
+  letter-spacing: 30px;
+  right: 70px;
+  top: 20px;
+
+}
+section.innovation .sub-container .inner .en span {
+  color: #ff8342;
+  padding: 10px;
+}
+section.innovation .sub-container .inner .bottom {
+  background: #123456;
+  text-align: left;
+  color: #fff;
+  padding-bottom: 25px;
+}
+section.innovation .sub-container .inner .bottom p {
+  float: left;
+  padding: 40px 0;
+  width: 80%;
+  padding-left: 250px;
+  position: relative;
+  line-height: 1.7;
+}
+section.innovation .sub-container .inner .bottom p::before {
+  content: 'CPVC';
+  display: block;
+  position: absolute;
+  left: 40px;
+  top: 35px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  
+}
+section.innovation .sub-container .inner .bottom a {
+  background: #ff8342;
+  width: 13%;
+  padding: 15px;
+  float: left;
+  display: block;
+  border-radius: 30px;
+  text-align: center;
+  font-weight: 700;
+  margin: 45px 30px;
+  transition: 0.6s;
+}
+section.innovation .sub-container .inner .bottom a:hover {
+  background: orangered;
+}
+/* end section.innovation */
