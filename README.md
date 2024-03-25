@@ -1,1 +1,2 @@
-this repository is for practice CSS
+This repository is for CSS practice.
+I didn't write the html.
